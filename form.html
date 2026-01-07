@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" >
+</head>
+<body>
+    <h2 > Student Registration Form</h2>
+   <!--get method-->
+      <!--postmethod =data url  ma append nagareyra request ko body ma pthauxa-->
+   <!--action attribute-->
+
+    <form method="get" action="handle.html"> 
+        <label> Name</label>
+        <br/>
+        
+        <input type="text" name="fname" placeholder=" First Name" required >
+        <input type="text" placeholder="Middle Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <br/>
+        <label>Password</label>
+        <input type="password" placeholder="">
+        <br/>
+        <label> Symbol Number:</label>
+    
+        <input type="number" placeholder="Enter your symbol number" required>
+        <br/>
+        <label>Email</label>
+        <input type="email" placeholder="example@gmail.com" required>
+        <br/>
+        <label>Phone Number</label>
+        <input type="number" placeholder="98******" required>
+        <br/>
+        <label>Country</label>
+<select>
+    <option>Select a country</option>
+    <option>Nepal</option>
+    <option > Canada</option>
+    <option>U.K</option>
+    <option>USA</option>
+    <option>Australlia</option>
+
+    </select>   
+         <br/>
+        <label> Faculty:</label>
+         <input type="checkbox"  name="Faculty" value="Bsc.csit" >Bsc.csit
+         <input type="checkbox" name="Faculty"  value="BCA" >BCA
+         <input type="checkbox"  name="Faculty" value="BBA">BBA
+        <br/>
+        <label>Gender</label>
+        <input type="radio" name="Gender" value="Male"> Male
+        <input type="radio" name="Gender"  value="Female">Female
+        <input type="radio" name="Gender" value="Others">Others
+        <br/>
+
+        <label>Message</label>
+         <textarea name="Messsage"> </textarea>
+         <br/>
+        <input type="submit">
+       
+
+
+    </form>
+</body>
+</html>

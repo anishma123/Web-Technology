@@ -1,0 +1,116 @@
+/*form{
+    border-radius: 10px  ;
+    width: 400px;
+    padding: 30px;
+     text-align: center;
+     background-color:white;
+     
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+*{
+    align-items: center;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    dislpay:flex;
+   height:100vh;
+    justify-content:center;
+    margin:0;
+    padding:0;}
+*/
+/* Page background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form box */
+form {
+    background-color: #ffffff;
+    padding: 30px ; 
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2d3436;
+    font-size: 14px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Forget password text */
+label:last-of-type {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #0984e3;
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Sign Up button */
+button.a {
+    background-color: #0984e3;
+    color: white;
+}
+
+button.a:hover {
+    background-color: #74b9ff;
+}
+
+/* Create account button */
+button.b {
+    background-color: #dfe6e9;
+    color: #2d3436;
+}
+
+button.b:hover {
+    background-color: #b2bec3;
+}

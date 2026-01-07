@@ -1,0 +1,27 @@
+
+*{
+    background-color: bisque;
+}
+h1{
+    color:rgb(188, 188, 12);
+    size: 10px;
+    margin: top 20px; 
+    font-size: x-large;
+}
+h2{
+    color: blueviolet;
+}
+.parent p{
+    color: aqua;
+}
+/*<!-- 1.adjacent sibling is denoted by(+) aafno side ko sibling lai matra select garxa
+     2. General sibling(~)=sabai aaafno sibling lai select garxa
+     3.decendent combinator-->*/
+
+     .first-para ~p{
+        font-style: italic;
+     }
+     /* pseudo selector*/
+     a:hover{
+        color: blue;
+     }

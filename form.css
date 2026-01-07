@@ -1,0 +1,6 @@
+*{
+    background-color: whitesmoke;
+}
+input[name="fname"]{
+    color: aliceblue;
+}
