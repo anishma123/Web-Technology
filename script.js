@@ -1,3 +1,5 @@
+//For form validation
+
 const formE1 =document.getElementById('form');
 formE1.addEventListener("submit", function(e){
 e.preventDefault();
